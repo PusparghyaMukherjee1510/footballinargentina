@@ -1,0 +1,112 @@
+
+body{
+background-image: url("https://i.dailymail.co.uk/1s/2021/07/11/03/45292291-9773071-Lionel_Messi_hoists_the_Copa_America_trophy_aloft_after_Argentin-a-84_1625971078335.jpg");
+background-size: 100%;
+background-attachment: fixed;
+}
+
+header nav{
+padding: 0;
+margin: 0;
+position: fixed;
+width: 100%;
+background-color: black;
+}
+
+li {
+float: right;
+background-color: black;
+}
+
+li a{
+display: block;
+padding: 8px;
+color: yellow;
+}
+
+a:hover{
+background-color: white;
+color: black;
+}
+
+body p{
+color: yellow;
+padding: 20px;
+font-weight: bold;
+font-size: 100%;
+font-family: Times New Roman, Sans-Serif;
+overflow: hidden;
+border: 1px solid black;
+width: 500px;
+height: auto;
+}
+
+body p::selection{
+background-color: black;
+color: black;
+}
+
+p::first-letter{
+color: green;
+font-size: xx-large;
+}
+
+
+/*
+
+body div.transbox{
+margin: 30px;
+background-color: white;
+border: 1px solid green;
+opacity: 0.6;
+}   */
+
+body div.transbox p{
+margin: 5px;
+color: red;
+}
+
+.thumbnail{
+display: inline-block;
+border: 1px solid black;
+text-align: center;
+color: red;
+background-color: white;
+overflow: hidden;
+}
+
+img{
+  border: 5px solid #ddd;
+  border-radius: 2px;
+  padding: 2px;
+  width: 200px;
+height: 100px;
+overflow: hidden;
+opacity: 0.5;
+}
+
+img:hover{
+opacity: 1.0;
+}
+
+div.thumbnail{
+font-size: 70%;
+}
+
+ #players{
+border: 1px solid red;
+color: red;
+font-size: 100%;
+overflow: hidden;
+text-align: center;
+}
+
+footer{
+color:red;
+background-color: yellow;
+font-size: 100%;
+font-weight: bold;
+text-align: center;
+padding: 20px;
+margin-top: 20px;
+}
